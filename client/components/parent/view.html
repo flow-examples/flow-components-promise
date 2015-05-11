@@ -1,0 +1,14 @@
+<template name="parent">
+  <div style="text-align:center; margin-top: 100px;">
+    <h1 style="font-family: Arial;">Change Background Color</h1>
+    {{>render component="loadingButton" 
+        text="With Promises" 
+        onClick=action$changeColorWithPromise
+    }}
+
+    {{>render component="loadingButton" 
+        text="Without Promises" 
+        onClick=action$changeColorWithoutPromise
+    }}
+  </div>
+</template>

@@ -1,0 +1,15 @@
+.mybutton {
+  font-size: 25px;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 15px;
+  background-color: #fff;
+  outline: 0;
+}
+
+.mybutton:hover {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
