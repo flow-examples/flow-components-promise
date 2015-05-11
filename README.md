@@ -1,4 +1,4 @@
 
-# How to use Promises with Flow Component actions 
+## How to use Promises with Flow Component actions 
 
 [![](./fc-promises.png)](https://flow-component-promise.meteor.com)
